@@ -110,7 +110,7 @@ const Navbar = () => {
              <button
           type="button"
           onClick={() => scrollToSection("booking")}
-          className="bg-primary hidden md:block hover:bg-blue-600 hover:cursor-pointer text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105"
+          className="bg-primary hover:bg-blue-600 hover:shadow-2xs hover:cursor-pointer text-white text-lg font-semibold mt-4 px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105"
         >
           Book Now
         </button>
