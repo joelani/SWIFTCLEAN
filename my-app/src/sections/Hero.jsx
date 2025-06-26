@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id='hero' className='mt-18 bg-gradient-to-br from-[#F7F9FC] via-white to-blue-50'>
+    <section id='hero' className='mt-10 bg-gradient-to-br from-[#F7F9FC] via-white to-blue-50'>
     <div className='container  relative m-auto py-12 md:px-20 px-14 overflow-hidden'>
       <div className='relative z-10 text-center flex flex-col gap-4 md:gap-9 justify-center items-center'>
       <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold mb-4'>Premium Cleaning <br /> <span className='text-[#007BFF]'>Made Simple</span></h1>

@@ -15,9 +15,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="top-0 left-0 h-[70px] text-xl text-[#007BFF] fixed w-full  bg-white bg px-6 md:px12 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
+      <nav className="top-0 left-0 h-[70px] text-xl text-[#007BFF] fixed w-full  bg-white bg container
+       flex items-center justify-between z-30 transition-all">
         <a href="#" onClick={() => scrollToSection("hero")}>
-          <img className="h-55" src={assets.brand} />
+          <img className="h-40 md:h-55" src={assets.brand} />
         </a>
 
         <ul className="text-[#007BFF] md:flex hidden items-center gap-10">
