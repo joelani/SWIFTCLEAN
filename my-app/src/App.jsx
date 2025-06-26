@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
   return (
-    <div className='relative pt-10'>
+    <div className='relative'>
       <ToastContainer />
       <Header/>
       <About/>
